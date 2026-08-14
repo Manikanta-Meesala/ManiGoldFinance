@@ -4,7 +4,7 @@ echo        STARTING MANIGOLDFINANCE (SPRING BOOT)
 echo ===================================================
 echo.
 echo Starting Spring Boot backend API server...
-start /B cmd /c "set JAVA_HOME=C:\Java\jdk-21&& "C:\Java\jdk-21\bin\java.exe" -jar backend-spring\target\finance-1.0.0.jar"
+start /B cmd /c "set JAVA_HOME=C:\Java\jdk-21&& "C:\Java\jdk-21\bin\java.exe" -jar backend\target\finance-1.0.0.jar"
 
 echo Starting frontend Vite dev server...
 start /B cmd /c "cd frontend && npm run dev"
