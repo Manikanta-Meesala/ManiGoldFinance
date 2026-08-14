@@ -1,0 +1,28 @@
+# Node / Vite frontend & backend dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Spring Boot target output
+target/
+*.class
+
+# Maven wrapper and log files
+.mvn/
+*.log
+
+# Databases & local user configurations
+*.db
+config.json
+ManiGoldFinanceData/
+backups/
+records.xlsx
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.user
