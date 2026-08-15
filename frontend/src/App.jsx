@@ -16,7 +16,7 @@ import ReturnedLoans from './components/ReturnedLoans';
 import ExternalLoans from './components/ExternalLoans';
 import SettingsView from './components/Settings';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api';
 
 function App() {
   const [configured, setConfigured] = useState(false);
